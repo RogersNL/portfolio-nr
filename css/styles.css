@@ -21,3 +21,13 @@ img {
 .education-experience {
   margin:10px;
 }
+.hobbies-info {
+  margin:10px;
+}
+.hobbies-text {
+  margin:10px;
+}
+img[class$="-p"]{
+  width:40%;
+  float:right;
+}
