@@ -1,9 +1,8 @@
 .tab {
   text-align: center;
+  height: auto;
+  border-width: 2px;
 }
 img {
   width:100%;
-}
-.tab {
-
 }
