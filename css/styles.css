@@ -6,28 +6,29 @@
 img {
   width:100%;
 }
-.projects-head {
+.panel:not(.ex){
   margin: 10px;
-}
-.about-content {
-  margin: 10px;
+  border-width: 2px;
 }
 .new-project {
   margin:12px;
-}
-.job-experience {
-  margin:10px;
-}
-.education-experience {
-  margin:10px;
-}
-.hobbies-info {
-  margin:10px;
-}
-.hobbies-text {
-  margin:10px;
+  border-width: 2px;
 }
 img[class$="-p"]{
   width:40%;
   float:right;
+}
+p:not(ol p) {
+  font-size: 20px;
+}
+
+@media screen and (min-width:992px) {
+  .tabs {
+    margin:1%;
+  }
+  .panel.ex.tab {
+    width:23%;
+    margin:1%;
+    padding-bottom: 10px;
+  }
 }
